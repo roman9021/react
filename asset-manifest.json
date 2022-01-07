@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/t%20https://roman9021.github.io/react/static/css/main.4809d6fc.css",
+    "main.js": "/t%20https://roman9021.github.io/react/static/js/main.0c137b73.js",
+    "static/js/787.b4a707d1.chunk.js": "/t%20https://roman9021.github.io/react/static/js/787.b4a707d1.chunk.js",
+    "static/media/intro-bg.jpg": "/t%20https://roman9021.github.io/react/static/media/intro-bg.3b91ccd8e008ef1f8c40.jpg",
+    "static/media/about.jpg": "/t%20https://roman9021.github.io/react/static/media/about.15fd68ace69404e63abb.jpg",
+    "index.html": "/t%20https://roman9021.github.io/react/index.html",
+    "main.4809d6fc.css.map": "/t%20https://roman9021.github.io/react/static/css/main.4809d6fc.css.map",
+    "main.0c137b73.js.map": "/t%20https://roman9021.github.io/react/static/js/main.0c137b73.js.map",
+    "787.b4a707d1.chunk.js.map": "/t%20https://roman9021.github.io/react/static/js/787.b4a707d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4809d6fc.css",
+    "static/js/main.0c137b73.js"
+  ]
+}
