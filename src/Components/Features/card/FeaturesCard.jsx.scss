@@ -1,0 +1,29 @@
+.FeaturesCard__icon{
+
+  display: inline;
+  padding: 40px;
+  border: none;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(208, 208, 208,  5%);
+  border-radius: 50%;
+  font-size: 32px;
+  color: white;
+}
+.FeaturesCard__title{
+  h3{
+    margin: 20px;
+  }
+  position: relative;
+  bottom: -35px;
+}
+.FeaturesCard__text{
+  color: #7B7977;
+  position: relative;
+  bottom: -35px;
+  max-width: 345px;
+}
+.FeaturesCard{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}

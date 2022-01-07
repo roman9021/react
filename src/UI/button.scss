@@ -1,0 +1,16 @@
+.buttonUI{
+  padding: 7px 40px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  background-color: #5ca9fb;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  transition: .8s;
+  &:hover{
+    color: #fff;
+    background-image: none;
+    background-color: #6372ff;
+  }
+}

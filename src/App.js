@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from "./header";
+import Home from './Components/Home/Home';
+import Sidebar from "./Components/sidebar/sidebar";
+import {useState} from "react";
+import Features from "./Components/Features/Features";
+import About from "./Components/about/about";
 
 function App() {
+    let [activeMenu,setActiveMenu] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header MenuActive={activeMenu} SetMenuActive = {setActiveMenu}/>
+        <Home/>
+        <Sidebar active={activeMenu}/>
+        <Features/>
+        <About/>
     </div>
   );
 }
